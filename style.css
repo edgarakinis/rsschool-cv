@@ -27,15 +27,15 @@ body{
 }
 
 .resume{
-    width: 800px;
+    width: 1000px;
     height: auto;
     display: flex;
-    margin: 50px auto;
+    margin: 0px auto;
 }
 
 .resume .resume_left{
-width: 50%;
-background: #19ca99;
+width: 40%;
+background: #82dfc4;
 }
 
 .names {
@@ -54,3 +54,46 @@ background: #19ca99;
     padding: 20px;
 
 } 
+
+a{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+a:hover{
+    color: #81acd3;
+ }
+
+
+.bulletpoint {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.inserted{
+    margin-left: 20px;
+}
+
+footer{
+    width: 1000px;
+    display: flex;
+    height: auto;
+    margin: 0px auto;
+    background: rgb(231, 231, 231);
+    border-top: 2px solid #000;
+    padding: 5px; clear : both;
+}
+
+.foot{
+    display: inline-block;
+}
+
+footer p{
+    text-align: center;
+    padding: 20px;
+    margin:auto;
+    width: 6em;
+    color: #000;
+}
