@@ -40,7 +40,6 @@ body{
     display: block;
     height: auto;
     min-width: 220px;
-    margin: auto;
 }
 
 .names {
@@ -125,6 +124,9 @@ footer p{
 .resume{
     flex-wrap: wrap;
 }
+footer{
+    flex-wrap: wrap;
+}
 }
 
 mark{
@@ -135,3 +137,10 @@ address{
     font-style: normal;
 }
 
+.work_spacer{
+    padding: 20px 0;
+}
+
+.footer_img{
+    width: 50px;
+}
